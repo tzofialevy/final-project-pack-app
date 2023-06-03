@@ -1,0 +1,31 @@
+body {
+    // background-image:url('../../images/pack.webp');
+    background-repeat: no-repeat;
+    background-position: abs($number: 2);
+    background-size: 50%;
+    background-position: right;
+
+
+}
+
+#div {
+    text-align: left;
+    padding: 40px;
+
+
+}
+
+.justPackMe {
+    span:hover {
+        font-size: 23px;
+    }
+}
+
+.textLogin {
+    color: rgb(209, 84, 70);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,50 @@
+.TripWay {
+    width: 50%;
+    overflow-y: auto;
+    height: 80vh;
+
+    .way {
+        cursor: pointer;
+        display: inline-block;
+        // align-items: center; 
+        // justify-content: center;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+        white-space: nowrap;
+        margin: 10px;
+        border: 1px rgb(160, 160, 160) solid;
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: center;
+        // align-items: center;
+
+        svg {
+            width: 50px;
+            height: 50px;
+            // background-color: rgb(189, 189, 189);
+            padding: 7px;
+        }
+
+        span {
+            margin-top: 3px;
+        }
+
+        // div {
+        //     width: 100%;
+        //     height: 100%;
+        //     display: flex;
+        //     align-self: self-end;
+        // }
+    }
+    .btn{
+        width: 250px;
+    }
+
+}
+
+.selected {
+    border: 1px salmon solid !important;
+    background-color: rgb(254, 247, 246);
+}

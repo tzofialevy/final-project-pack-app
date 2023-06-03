@@ -1,0 +1,56 @@
+.images {
+  //  background-image: url("../../../images/France.jpg");
+  background-image: url("https://meda123.com/282780_6665.jpg");
+  height: 100px;
+
+}
+
+// .flex {
+//   display: flex;
+//   // flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%;
+// }
+.ass {
+  // display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  overflow-y: auto;
+  height: 80vh;
+  width: 50%;
+}
+
+.card {
+  height: 100px !important;
+  border: 1px salmon solid !important;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.btnNewTrip,
+.btnNewTrip:focus,
+.btn {
+  width: 120px;
+  left: unset !important;
+  background-color: salmon !important;
+  border-color: rgb(244, 113, 98) !important;
+  outline-color: rgb(236, 219, 217) !important;
+}
+
+.noData {
+  font-size: 20px;
+}
+
+.smallText {
+  font-size: x-small;
+  color: gray;
+}
+
+.cardParent {
+  width: 30%;
+  display: inline-block;
+}

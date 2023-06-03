@@ -1,0 +1,21 @@
+.pad {
+    padding-bottom: 0%;
+}
+
+.Products {
+    width: 50%;
+    height: 80vh;
+    overflow-y: auto;
+
+    .p-accordion.p-component {
+        width: 90%;
+    }
+
+    .back {
+        a {
+            color: salmon;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
